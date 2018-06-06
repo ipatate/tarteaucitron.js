@@ -26,7 +26,7 @@ module.exports = {
                 exclude: /node_modules/,
                 use: ExtractTextWebpackPlugin.extract({
                     fallback: 'style-loader',
-                    use: ['css-loader', 'svg-fill-loader/encodeSharp', 'sass-loader']
+                    use: ['css-loader', 'svg-fill-loader/encodeSharp', 'postcss-loader', 'sass-loader']
                 })
             },
         ]

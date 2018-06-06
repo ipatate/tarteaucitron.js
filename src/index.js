@@ -10,7 +10,7 @@ tarteaucitron.init({
     /* le bandeau doit être en haut (top) ou en bas (bottom) ? */
     "adblocker": false,
     /* Afficher un message si un adblocker est détecté */
-    "showAlertSmall": true,
+    "showAlertSmall": false,
     /* afficher le petit bandeau en bas à droite ? */
     "cookieslist": true,
     /* Afficher la liste des cookies installés ? */
