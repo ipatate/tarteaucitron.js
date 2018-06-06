@@ -378,7 +378,7 @@ window.tarteaucitron = {
                 if (defaults.adblocker === true) {
                     setTimeout(function () {
                         if (tarteaucitronNoAdBlocker === false) {
-                            html = '<div id="tarteaucitronAlertBig" class="tarteaucitronAlertBig' + orientation + '" style="display:block">';
+                            html = '<div id="tarteaucitronAlertBig" class="tarteaucitronAlertBig' + orientation + '" style="display:flex">';
                             html += '   <span id="tarteaucitronDisclaimerAlert">';
                             html += '       ' + tarteaucitron.lang.adblock + '<br/>';
                             html += '       <b>' + tarteaucitron.lang.adblock_call + '</b>';
@@ -639,8 +639,8 @@ window.tarteaucitron = {
         },
         "openPanel": function () {
             "use strict";
-            tarteaucitron.userInterface.css('tarteaucitron', 'display', 'block');
-            tarteaucitron.userInterface.css('tarteaucitronBack', 'display', 'block');
+            tarteaucitron.userInterface.css('tarteaucitron', 'display', 'flex');
+            tarteaucitron.userInterface.css('tarteaucitronBack', 'display', 'flex');
             tarteaucitron.userInterface.css('tarteaucitronCookiesListContainer', 'display', 'none');
             tarteaucitron.userInterface.jsSizing('main');
         },
@@ -666,15 +666,15 @@ window.tarteaucitron = {
         "openAlert": function () {
             "use strict";
             var c = 'tarteaucitron';
-            tarteaucitron.userInterface.css(c + 'Percentage', 'display', 'block');
+            tarteaucitron.userInterface.css(c + 'Percentage', 'display', 'flex');
             tarteaucitron.userInterface.css(c + 'AlertSmall', 'display', 'none');
-            tarteaucitron.userInterface.css(c + 'AlertBig', 'display', 'block');
+            tarteaucitron.userInterface.css(c + 'AlertBig', 'display', 'flex');
         },
         "closeAlert": function () {
             "use strict";
             var c = 'tarteaucitron';
             tarteaucitron.userInterface.css(c + 'Percentage', 'display', 'none');
-            tarteaucitron.userInterface.css(c + 'AlertSmall', 'display', 'block');
+            tarteaucitron.userInterface.css(c + 'AlertSmall', 'display', 'flex');
             tarteaucitron.userInterface.css(c + 'AlertBig', 'display', 'none');
             tarteaucitron.userInterface.jsSizing('box');
         },
