@@ -15,6 +15,8 @@ tarteaucitron.init({
     "cookieslist": true,
     /* Afficher la liste des cookies installés ? */
     "removeCredit": false,
+
+    "loadCSS": false
     /* supprimer le lien vers la source ? */
     //"cookieDomain": ".my-multisite-domaine.fr" /* Nom de domaine sur lequel sera posé le cookie - pour les multisites / sous-domaines - Facultatif */
 });

@@ -13,13 +13,23 @@ module.exports = {
     },
     module: {
         rules: [{
-            test: /\.(scss|css)$/,
-            exclude: /node_modules/,
-            use: ExtractTextWebpackPlugin.extract({
-                fallback: 'style-loader',
-                use: ['css-loader', 'sass-loader']
-            })
-        }, ]
+                test: /\.svg$/,
+                use: [
+                    'url-loader', // or url-loader
+                    {
+                        loader: 'svg-fill-loader'
+                    }
+                ]
+            },
+            {
+                test: /\.(scss|css)$/,
+                exclude: /node_modules/,
+                use: ExtractTextWebpackPlugin.extract({
+                    fallback: 'style-loader',
+                    use: ['css-loader', 'svg-fill-loader/encodeSharp', 'sass-loader']
+                })
+            },
+        ]
     },
     plugins: [
         new ExtractTextWebpackPlugin('tarteaucitron.css'),
