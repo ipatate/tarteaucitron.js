@@ -7,9 +7,9 @@ module.exports = {
     mode: 'production',
     devtool: "source-map",
     output: {
-        path: path.resolve(__dirname, 'dist'),
+        path: path.resolve(__dirname, 'tarteaucitron'),
         filename: 'tarteaucitron.js',
-        publicPath: '/dist/'
+        publicPath: '/tarteaucitron/'
     },
     module: {
         rules: [{

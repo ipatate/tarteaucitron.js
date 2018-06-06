@@ -6,9 +6,8 @@
     "author": "Patrick Faramaz <faramazpat@gmail.com>",
     "license": "MIT",
     "scripts": {
-        "clean": "rm -rf dist/",
-        "copy": "cp -r lang/ dist/lang && cp src/tarteaucitron.services.js dist/tarteaucitron.services.js",
-        "build": "npm run clean && node ./node_modules/webpack/bin/webpack.js && npm run copy",
+        "clean": "rm -rf tarteaucitron/tarteaucitron.css tarteaucitron/tarteaucitron.js tarteaucitron/tarteaucitron.js.map",
+        "build": "npm run clean && node ./node_modules/webpack/bin/webpack.js",
         "dev": "npm run clean && npm run webpack-dev-server",
         "webpack-dev-server": "webpack-dev-server"
     },

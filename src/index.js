@@ -18,9 +18,3 @@ tarteaucitron.init({
     /* supprimer le lien vers la source ? */
     //"cookieDomain": ".my-multisite-domaine.fr" /* Nom de domaine sur lequel sera posé le cookie - pour les multisites / sous-domaines - Facultatif */
 });
-
-
-
-tarteaucitron.user.analyticsUa = 'UA-XXXXXXXX-X';
-tarteaucitron.user.analyticsMore = function () { /* add here your optionnal ga.push() */ };
-(tarteaucitron.job = tarteaucitron.job || []).push('analytics');

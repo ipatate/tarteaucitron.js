@@ -1,3 +1,5 @@
 node_modules
 *.log
-dist/
+tarteaucitron/tarteaucitron.css
+tarteaucitron/tarteaucitron.js
+tarteaucitron/tarteaucitron.js.map
