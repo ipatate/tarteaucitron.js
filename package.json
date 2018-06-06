@@ -1,0 +1,13 @@
+{
+  "name": "tarteaucitron.js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ipatate/tarteaucitron.js.git",
+  "author": "Patrick Faramaz <faramazpat@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.11.1",
+    "webpack-cli": "^3.0.2",
+    "webpack-command": "^0.2.0"
+  }
+}
