@@ -1,4 +1,5 @@
 import tarteaucitron from './tarteaucitron.js';
+require('./index.scss');
 
 tarteaucitron.init({
     "hashtag": "#tarteaucitron",

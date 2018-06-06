@@ -1,3 +1,5 @@
+MODIFIED VERSION OF tarteaucitron WITH webpack.
+
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/SASAICAGENCY)
 
 
@@ -56,11 +58,11 @@ Bonus:
 * Comment
   * Disqus
   * Facebook (commentaire)
-  
+
 * Marketing Automation & CRM
   * Mautic
   * Webmecanik Automation
-  
+
 * Social network
   * AddThis
   * AddToAny (feed)

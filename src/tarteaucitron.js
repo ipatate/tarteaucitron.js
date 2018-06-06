@@ -200,7 +200,7 @@ window.tarteaucitron = {
         // Step 1: load css
         linkElement.rel = 'stylesheet';
         linkElement.type = 'text/css';
-        linkElement.href = cdn + 'css/tarteaucitron.css?v=' + tarteaucitron.version;
+        linkElement.href = cdn + '/tarteaucitron.css?v=' + tarteaucitron.version;
         document.getElementsByTagName('head')[0].appendChild(linkElement);
 
         // Step 2: load language and services
